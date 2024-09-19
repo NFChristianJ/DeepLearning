@@ -14,8 +14,8 @@ base du deep learning.
 Pour utiliser les fichiers de ce dépôt, clonez-le et installez les dépendances nécessaires :
 
 ```bash
-git clone https://github.com/ton-utilisateur/deep-learning-basics.git
-cd deep-learning-basics
+git clone https://github.com/ton-utilisateur/deep-learning.git
+cd deep-learning
 pip install -r requirements.txt
 ```
 
