@@ -1,0 +1,47 @@
+Ce fichier README fournit des informations détaillées, des ressources et des commentaires associés au notebook `[Nom du Notebook]`.
+
+## Description
+
+Le but de ce notebook est de faire de la classification binaire sur les caracteres manuscrits sur le dataset IMDB disponible dans Keras.
+
+Ce notebook couvre les points suivants :
+- **Préparation des données** : Chargement et prétraitement des données.
+- **Construction du modèle** : Création et compilation du modèle de deep learning.
+- **Entraînement** : Entraînement du modèle sur les données.
+- **Évaluation** : Évaluation des performances du modèle.
+
+Au départ, j'avais une bonne précision sur l'ensemble d'entraînement, mais je rencontrais des difficultés avec les ensembles de validation et de test. En effet, j'observais une précision stable accompagnée d'une 
+perte croissante sur l'ensemble de validation. J'ai donc apporté des modifications aux paramètres du modèle jusqu'à trouver la combinaison idéale. Le paramètre qui a vraiment joué un rôle clé dans l'amélioration 
+de la précision du modèle, tant pour l'entraînement que pour les tests, est le taux d'apprentissage.
+
+## Ressources
+
+Voici quelques ressources utiles pour mieux comprendre les concepts abordés dans ce notebook :
+- [Deep Learning with Python - François Chollet](https://www.manning.com/books/deep-learning-with-python)
+- [Documentation Keras](https://keras.io/)
+- [Documentation TensorFlow](https://www.tensorflow.org/)
+
+## Commentaires
+
+- **Section Construction du modèle** : Expérimentez avec différentes architectures pour voir ce qui fonctionne le mieux.
+- **Section Entraînement** : Surveillez les métriques de performance pour éviter le surapprentissage.
+
+## Exécution
+
+Pour exécuter ce notebook, suivez les étapes ci-dessous :
+
+1. Assurez-vous que toutes les dépendances sont installées :
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Ouvrez le notebook dans Jupyter :
+    ```bash
+    jupyter notebook [Nom du Notebook].ipynb
+    ```
+
+3. Suivez les instructions dans le notebook pour exécuter chaque cellule.
+
+## Licence
+
+Ce notebook est sous licence MIT. Voir le fichier [LICENSE](../LICENSE) pour plus de détails.
